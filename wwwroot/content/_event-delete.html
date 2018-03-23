@@ -1,0 +1,54 @@
+﻿<div class="row">
+    <div class="col-lg-6">
+        <h2>Delete Event</h2>
+        <div>
+            <p>Are you sure you want to delete the following event:</p>
+            <form name="addEvent">
+                <div class="form-field">
+                    <div class="form-label">
+                        Id:
+                    </div>
+                    <div class="form-value">
+                        {{event.id}}
+                    </div>
+                </div>
+                <div class="form-field">
+                    <div class="form-label">
+                        Event name:
+                    </div>
+                    <div class="form-value">
+                        {{event.eventName}}
+                    </div>
+                </div>
+                <div class="form-field">
+                    <div class="form-label">
+                        Event code:
+                    </div>
+                    <div class="form-value">
+                        {{event.eventCode}}
+                    </div>
+                </div>
+                <div class="form-field">
+                    <div class="form-label">
+                        Start date:
+                    </div>
+                    <div class="form-value">
+                        {{event.eventStartDate}}
+                    </div>
+                </div>
+                <div class="form-field">
+                    <div class="form-label">
+                        End date:
+                    </div>
+                    <div class="form-value">
+                        {{event.eventEndDate}}
+                    </div>
+                </div>
+                <div class="form-field">
+                    <button ng-click="killEvent(event.id)" class="btn-danger">Delete Event</button>
+                </div>
+        </form>
+    </div>
+
+    </div>
+</div>

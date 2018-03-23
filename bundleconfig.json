@@ -1,0 +1,19 @@
+[
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+    "inputFiles": [
+      "wwwroot/css/site.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/bundle.js",
+    "inputFiles": [
+        "wwwroot/js/app/appModule.js",
+        "wwwroot/js/app/appRoute.js",
+        "wwwroot/js/app/eventService.js",
+        "wwwroot/js/app/eventController.js",
+        "wwwroot/js/app/eventEditController.js",
+        "wwwroot/js/app/eventAddController.js"
+    ]
+  }
+]
